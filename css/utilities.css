@@ -1,0 +1,47 @@
+button {
+    text-align: center;
+    align-content: center;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+button:hover {
+    transform: scale(0.9);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn-clear {
+    background: transparent;
+    color: #4a5b6c;
+}
+
+.txt-primary {
+    color: var(--primary-color);
+}
+.txt {
+    color: var(--text-color);
+}
+.txt-light {
+    color: var(--lightTxt-color);
+}
+.txt-bluelight {
+    color: var(--success-color);
+}
+.txt-dash {
+    color: var(--error-color);
+}
+
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    /* padding: 20px; */
+    margin: 10px;
+}
